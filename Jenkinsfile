@@ -10,8 +10,8 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git credentialsId: 'your-github-credentials-id', 
-                    url: 'https://github.com/your-username/private-repo.git',
+                git credentialsId: 'rupanshi01', 
+                    url: 'https://github.com/rupanshi01/devopsproj.git',
                     branch: 'main'
             }
         }
